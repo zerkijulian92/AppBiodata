@@ -64,6 +64,11 @@ public class MainActivity extends AppCompatActivity {
 
                         if (kode.equals("1")) {
                             Toast.makeText(MainActivity.this, "Data berhasil disimpan", Toast.LENGTH_SHORT).show();
+
+                            // Menghapus editText ketika data telah tersimpan ke database
+                            edtNamaLengkap.getText().clear();
+                            edtUsia.getText().clear();
+                            edtDomisili.getText().clear();
                         }
                         else {
                             Toast.makeText(MainActivity.this, "Data Error tidak berhasil disimpan", Toast.LENGTH_SHORT).show();
