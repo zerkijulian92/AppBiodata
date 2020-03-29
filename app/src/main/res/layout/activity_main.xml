@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Nama" />
+
+        <TextView
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:text=":" />
+
+        <EditText
+            android:id="@+id/edt_nama_lengkap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Lengkap" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Usia" />
+
+        <TextView
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:text=":" />
+
+        <EditText
+            android:id="@+id/edt_usia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Usia" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Domisili" />
+
+        <TextView
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:text=":" />
+
+        <EditText
+            android:id="@+id/edt_domisili"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Domisili" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Save" />
+
+</LinearLayout>
